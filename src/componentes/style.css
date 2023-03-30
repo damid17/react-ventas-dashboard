@@ -1,0 +1,201 @@
+.divVentas{
+    display: flex;
+}
+
+.pad-5{
+    padding: 0 5px;
+}
+
+.b-right{
+    border-right: 4px solid #1abc9d;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #1abc9d;
+  }
+
+  h1{
+    color: #13202c;
+    text-align: center;
+    font-family: Arial;
+    font-weight: normal;
+  }
+  .outer-screen{
+    background: #13202c;
+    width: 900px;
+    height: 540px;
+    margin: 50px auto;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    position: relative;
+    padding-top: 35px;
+  }
+
+  .outer-screen:before{
+    content: "";
+    background: #3e4a53;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+  }
+  .outer-screen:after{
+    content: "";
+    background: #ecf0f1;
+    width: 900px;
+    height: 88px;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+  }
+
+  .stand{
+    position: relative;
+  }
+
+  .stand:before{
+    content: "";
+    position: absolute;
+    bottom: -150px;
+    border-bottom: 150px solid #bdc3c7;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 200px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+
+  .stand:after{
+    content: "";
+    position: absolute;
+    width: 260px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-bottom: 30px solid #bdc3c7;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    bottom: -180px;
+    box-shadow: 0px 4px 0px #7e7e7e
+  }
+
+  .inner-screen{
+    width: 800px;
+    height: 375px;
+    background: #1abc9d;
+    margin: 0px auto;
+    padding-top: 20px;
+  }
+
+  .form{
+    width: 400px;
+    height: 230px;
+    background: #edeff1;
+    margin: 0px auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+  }
+
+  input[type="text"], input[type="password"], select{
+    display: block;
+    width: 309px;
+    height: 35px;
+    margin: 15px auto;
+    background: #fff;
+    border: 2px solid #1abc9d !important;
+    padding: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  input[type="text"]:focus{
+    border: 3px solid black
+  }
+
+  .btnLogin, .btnAtras, .btnEnviar, .btnatras2{
+    display: block;
+    background: #1abc9d;
+    width: 314px;
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+    border: 0px;
+    margin: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+  }
+  .btnEnviar{
+      width: 100% !important;
+  }
+  .btnAtras, .btnatras2{
+      margin-bottom: 15px;
+      background: #13202c;
+  }
+
+  .btnAtras:hover, .btnatras2:hovern{
+    background: #edeff1;
+    color: #13202c;
+  }
+
+  .btnLogin:hover{
+    background: #09cca6
+  }
+
+  a{
+    text-align: center;
+    font-weight: bolder;
+    color: gray;
+    display: inline;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color:#0d6efd;
+  }
+
+  p{
+      margin-top: 10px;
+      margin-left: 50px;
+  }
+
+  a:hover{
+    color: #1abc9d;
+  }
+
+  .card{
+    border-radius: 0;
+    border: 10px solid rgba(0,0,0,.125);
+  }
+
+  .card-body, .destinosTop, .divVentas{
+    border: 2px solid #1abc9d;
+  }
+
+  .pnuevo{
+      margin: 0;
+      padding: 0 5px;
+  }
+
+  .btnatras2{
+      display:initial;
+      margin-top: 25px;
+  }
